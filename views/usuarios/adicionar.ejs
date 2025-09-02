@@ -1,0 +1,8 @@
+<%- include('../partials/header') %>
+<h1>Adicionar Usuário</h1>
+<form action="/usuarios/add" method="POST">
+  <input name="nome" placeholder="Nome" required>
+  <input name="email" placeholder="Email" required>
+  <button type="submit">Salvar</button>
+</form>
+<%- include('../partials/footer') %>
